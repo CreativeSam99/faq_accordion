@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-image: url("/images/background-pattern-mobile.svg");
+    background-image: url("background-pattern-mobile.svg");
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "Work Sans";
@@ -82,7 +82,7 @@ h1 {
 @media (min-width: 576px) {
 
     body{
-        background-image: url("/images/background-pattern-desktop.svg");
+        background-image: url("background-pattern-desktop.svg");
         background-size: contain;
         background-repeat: no-repeat;
     }
