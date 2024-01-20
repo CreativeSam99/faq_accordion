@@ -7,7 +7,7 @@ function cleara() {
         const para = document.querySelectorAll(".question p")
         if(para[index].style.display == "block"){
             para[index].style.display = "none"
-            img[index].setAttribute("src", "images/icon-plus.svg")
+            img[index].setAttribute("src", "icon-plus.svg")
         }else {
             console.log("hello")
         }
@@ -23,12 +23,12 @@ que.forEach(function(q, index){
         
         if(para[index].style.display != "block"){
             cleara()
-            img[index].setAttribute("src", "images/icon-minus.svg")
+            img[index].setAttribute("src", "icon-minus.svg")
             para[index].style.display = "block"
             
         } else{
             cleara()
-            img[index].setAttribute("src", "images/icon-plus.svg")
+            img[index].setAttribute("src", "icon-plus.svg")
             para[index].style.display = "none"
         }
     })
